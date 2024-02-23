@@ -1,0 +1,17 @@
+
+@font-face {
+  font-family: ytFont;
+  src: url(./assets/yt\ font.ttf);
+}
+
+
+body {
+  margin: 0;
+  
+}
+
+
+
+* {
+  user-select: none;
+}

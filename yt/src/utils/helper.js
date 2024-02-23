@@ -1,0 +1,138 @@
+var nameList = [
+  "Aarav Sharma",
+  "Aanya Patel",
+  "Advait Kapoor",
+  "Anika Desai",
+  "Arjun Reddy",
+  "Avni Singh",
+  "Ayush Mehta",
+  "Diya Joshi",
+  "Esha Singhania",
+  "Gautam Choudhury",
+  "Ishaan Kumar",
+  "Kavya Nair",
+  "Krish Gupta",
+  "Meera Iyer",
+  "Neel Agarwal",
+  "Niharika Kapoor",
+  "Omkar Verma",
+  "Pari Shah",
+  "Pranav Chopra",
+  "Riya Malhotra",
+  "Rohan Joshi",
+  "Saanvi Khanna",
+  "Shaan Shah",
+  "Shivani Patel",
+  "Siddharth Das",
+  "Tara Menon",
+  "Uday Chatterjee",
+  "Vanya Mehra",
+  "Vihaan Kumar",
+  "Yashika Singh",
+  "Yuvraj Mishra",
+  "Aadhya Sharma",
+  "Aryan Khatri",
+  "Ishita Verma",
+  "Jayant Kumar",
+  "Kiara Gupta",
+  "Kunal Bhat",
+  "Nisha Rawat",
+  "Raghav Jain",
+  "Sanaya Mathur",
+  "Tanishka Nair",
+  "Utkarsh Singh",
+  "Vivaan Reddy",
+  "Zara Chawla",
+  "Arnav Singh",
+  "Sanya Dubey",
+  "Kabir Sharma",
+  "Ananya Das",
+  "Reyansh Kapoor",
+  "Ishika Mishra"
+];
+
+export function generateRandomNames() {
+  var finalName = nameList[Math.floor(Math.random() * nameList.length)];
+  return finalName;
+}
+
+
+const commentList = [
+  "This video is amazing! 🌟 I learned so much. 🧠",
+  "Who else is here in 2024? 🔥",
+  "I can't believe I didn't find this sooner. 😱 This deserves way more views! 👀👍",
+  "The production quality is top-notch. 👌",
+  "I watched this 10 times and it gets better every time. 🔄",
+  "This tutorial saved my life. 🙌",
+  "Anyone else got this in their recommended? 🤔",
+  "The like button was smashed before the video even started. 👊",
+  "I wish I could give this more than one thumbs up! 👍👍",
+  "This made my day, thank you! 😊",
+  "I've been waiting for this my whole life. ⏳",
+  "Can we take a moment to appreciate the editing? 🎬",
+  "This is the content I subscribe for. 💻",
+  "My cat watched this with me and now she's a genius. 🐱🧠",
+  "The music in the background is so chill. 🎵",
+  "I've never clicked so fast in my life. ⚡️",
+  "I can't stop laughing at the jokes in this video. 😂",
+  "This is so underrated. 🌟",
+  "Who else got emotional at the end? 😢",
+  "I want more content like this! 🙏",
+  "This is better than Netflix. 🍿",
+  "I've been binge-watching your videos all day. 📺",
+  "I wish I could give a million likes. 💖",
+  "I've never seen anything like this before! 😮",
+  "This should be trending! 🔥",
+  "How is this not viral yet? 🌐",
+  "I've never commented on a video before, but I had to for this one. 💬",
+  "This is the definition of quality content. 👌",
+  "I'm subscribing and turning on notifications! 🔔",
+  "This is pure gold! 🏆",
+  "You deserve all the success in the world for this. 🌎",
+  "I've learned more from this video than in a year of school. 🎓",
+  "This deserves an award. 🏅",
+  "I can't believe this only has X views, it should have millions! 🤯",
+  "I'm sending this to all my friends. 📤",
+  "This made me smile after a rough day. 😊",
+  "Who else is watching this at 3 am? 🌙",
+  "I want a sequel! 🔄",
+  "This should be on the front page of YouTube. 📰",
+  "The comments section is the best part of YouTube. 💬",
+  "I wish there was a love button. ❤️",
+  "My life is complete after watching this. ✨",
+  "This is better than therapy. 💆‍♂️",
+];
+
+export function generateRandomComments() {
+  var finalComment = commentList[Math.floor(Math.random() * commentList.length)];
+  return finalComment;
+}
+
+
+const profileList = [
+  "https://randomuser.me/api/portraits/men/1.jpg",
+  "https://randomuser.me/api/portraits/women/2.jpg",
+  "https://randomuser.me/api/portraits/men/3.jpg",
+  "https://randomuser.me/api/portraits/women/4.jpg",
+  "https://randomuser.me/api/portraits/men/5.jpg",
+  "https://randomuser.me/api/portraits/women/6.jpg",
+  "https://randomuser.me/api/portraits/men/7.jpg",
+  "https://randomuser.me/api/portraits/women/8.jpg",
+  "https://randomuser.me/api/portraits/men/9.jpg",
+  "https://randomuser.me/api/portraits/women/10.jpg",
+  "https://randomuser.me/api/portraits/men/11.jpg",
+  "https://randomuser.me/api/portraits/women/12.jpg",
+  "https://randomuser.me/api/portraits/men/13.jpg",
+  "https://randomuser.me/api/portraits/women/14.jpg",
+  "https://randomuser.me/api/portraits/men/15.jpg",
+  "https://randomuser.me/api/portraits/women/16.jpg",
+  "https://randomuser.me/api/portraits/men/17.jpg",
+  "https://randomuser.me/api/portraits/women/18.jpg",
+  "https://randomuser.me/api/portraits/men/19.jpg",
+  "https://randomuser.me/api/portraits/women/20.jpg",
+];
+
+export function generateRandomProfile() {
+  var finalProfile = profileList[Math.floor(Math.random() * profileList.length)];
+  return finalProfile;
+}
